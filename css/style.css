@@ -25,10 +25,8 @@
 }
 
 #hero {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../media/imgs/blurred.jpg');
+    
+    
 }
 
 .hero-card {
@@ -45,6 +43,7 @@
     padding-right: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
+    border-radius: 5px;
 }
 
 #my-pic {
@@ -55,7 +54,63 @@
     margin-right: 80px;
 }
 
-#blurb-holder {
+.blurb-holder {
     display: inline-block;
     margin-left: 80px;
+}
+
+@media only screen and (max-width: 780px) {
+    .hero-card {
+        text-align: center;
+        margin: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #my-pic {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #blurb-holder {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.main {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../media/imgs/blurred.jpg');
+}
+
+.lower-card {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid #f1f1f1;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border-radius: 5px;
+}
+
+.card-pic {
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small-blurb-holder {
+    text-align: center;
+    margin-left: 0px;
 }
