@@ -1,0 +1,61 @@
+#navbar-icon {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    filter: invert(1);
+}
+
+#navbar-icon:hover {
+    cursor:pointer;
+}
+
+.navbar-buttons {
+    display: inline;
+}
+
+#settings-button {
+    filter: invert(1);
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+#settings-button:hover {
+    cursor: pointer;
+}
+
+#hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../media/imgs/blurred.jpg');
+}
+
+.hero-card {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid #f1f1f1;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#my-pic {
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+#blurb-holder {
+    display: inline-block;
+    margin-left: 80px;
+}

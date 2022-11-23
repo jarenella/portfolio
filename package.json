@@ -16,7 +16,7 @@
     "url": "https://github.com/jarenella/portfolio/issues"
   },
   "homepage": "https://github.com/jarenella/portfolio#readme",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.2.4"
   }
 }
