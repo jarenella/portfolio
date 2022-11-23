@@ -67,7 +67,7 @@
         margin-right: auto;
     }
 
-    #blurb-holder {
+    .blurb-holder {
         margin-left: auto;
         margin-right: auto;
     }
@@ -108,4 +108,34 @@
 .small-blurb-holder {
     text-align: center;
     margin-left: 0px;
+}
+
+.area-title {
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    font-family: 'Lobster', cursive;
+    height: 20%;
+    text-decoration: underline;
+}
+
+#main-name {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+.hero-card:hover, .lower-card:hover {
+    box-shadow:
+    0 0 60px 30px #fff,  /* inner white */
+    0 0 100px 60px #f0f, /* middle magenta */
+    0 0 140px 90px #0ff; /* outer cyan */
+}
+
+.navbar-header {
+    position: fixed;
+    width: 100%;
+}
+
+#bumper {
+    height:80px;
 }

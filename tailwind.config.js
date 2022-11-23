@@ -6,3 +6,7 @@ module.exports = {
   },
   plugins: [],
 }
+
+
+// tailwind console command to automatically update output upon every saved change
+// npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch

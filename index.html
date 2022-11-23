@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jamie Arenella</title>
+    <!--Google fonts START-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!--Google fonts END-->
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
@@ -13,16 +18,19 @@
 </head>
 <body class="bg-zinc-100">
     <!--Header START-->
-    <nav class="bg-zinc-800">
+    <nav class="bg-zinc-800 navbar-header">
         <img id="navbar-icon" class="m-4" src="https://www.reshot.com/preview-assets/icons/4JZTFRKXUV/magic-wand-4JZTFRKXUV.svg">
         <nav class="navbar-buttons">
             <button class="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">Home</button>
             <button class="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">Projects</button>
             <button class="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">About</button>
+            <button class="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">Contact</button>
         </nav>
         <i id="settings-button" class="fas fa-cog"></i>
     </nav>
     <!--Header END-->
+
+    <div id="bumper"></div> <!--bumps down the page below the navbar-->
 
     <!--Main body START-->
     <nav class="main">
@@ -33,13 +41,15 @@
                 <img id="my-pic"
                     src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg">
                 <div class="blurb-holder">
-                    <h1>Jamie Arenella</h1>
+                    <h1 id="main-name">Jamie Arenella</h1>
                     <p>Full Stack Developer</p>
                 </div>
             </div>
             <!--Hero Card END-->
 
         </div>
+
+        <h2 class="area-title">Projects</h2>
 
         <nav id="other-cards" class="flex items-center justify-center flex-wrap">
 
@@ -48,7 +58,7 @@
                 <img class="card-pic"
                     src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg">
                 <div class="small-blurb-holder">
-                    <h2>Header</h2>
+                    <h3>Header</h3>
                     <p>Text body to describe header</p>
                 </div>
             </div>
@@ -59,7 +69,7 @@
                 <img class="card-pic"
                     src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg">
                 <div class="small-blurb-holder">
-                    <h2>Header</h2>
+                    <h3>Header</h3>
                     <p>Text body to describe header</p>
                 </div>
             </div>
@@ -70,7 +80,7 @@
                 <img class="card-pic"
                     src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg">
                 <div class="small-blurb-holder">
-                    <h2>Header</h2>
+                    <h3>Header</h3>
                     <p>Text body to describe header</p>
                 </div>
             </div>
@@ -81,13 +91,16 @@
                 <img class="card-pic"
                     src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg">
                 <div class="small-blurb-holder">
-                    <h2>Header</h2>
+                    <h3>Header</h3>
                     <p>Text body to describe header</p>
                 </div>
             </div>
             <!--Card END-->
 
         </nav>
+
+        <h2 class="area-title">About</h2>
+        
     </nav>
     <!--Main body END-->
 </body>
