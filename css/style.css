@@ -13,12 +13,12 @@
     display: inline;
 }
 
-#settings-button {
+/* #settings-button {
     filter: invert(1);
     float: right;
     margin-top: 50px;
     margin-right: 20px;
-}
+} */
 
 #settings-button:hover {
     cursor: pointer;
@@ -54,6 +54,15 @@
     margin-left: 80px;
 }
 
+.area-title {
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    font-family: 'Oleo Script', cursive;
+    height: 20%;
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 780px) {
     .hero-card {
         text-align: center;
@@ -70,6 +79,10 @@
     .blurb-holder {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .area-title {
+        font-size: 50px;
     }
 }
 
@@ -108,15 +121,6 @@
 .small-blurb-holder {
     text-align: center;
     margin-left: 0px;
-}
-
-.area-title {
-    text-align: center;
-    color: white;
-    font-size: 150px;
-    font-family: 'Oleo Script', cursive;
-    height: 20%;
-    text-decoration: underline;
 }
 
 #main-name {
